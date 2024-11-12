@@ -6,7 +6,7 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
     resultBox.textContent = 'Scanning...';
 
     try {
-        const response = await fetch('https://abdulmoiz2k04.pythonanywhere.com/scan', {
+        const response = await fetch('http://3.105.184.108:5000/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
