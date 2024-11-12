@@ -6,7 +6,7 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
     resultBox.textContent = 'Scanning...';
 
     try {
-        const response = await fetch('https://3.105.184.108:5000/scan', {
+        const response = await fetch('https://aa98-3-105-184-108.ngrok-free.app/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
