@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/portscanner.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/scan",
+        "dest": "/api/portscanner.py"
+      }
+    ]
+  }
+  
