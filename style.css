@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+    color: green;
+    letter-spacing: 5px;
+}
+.fa-magnifying-glass{
+    color: grey
+}
+.disclaimer, .ports{
+    padding: 0px 50px 0px 50px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.guide-link, .tool-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guide-link a, .tool-link a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    color: red;
+    display: block;
+    align-items: center;
+    margin-top: -30px;
+    border: 1px solid red;
+    padding: 5px;
+    width:fit-content;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.guide-link a:hover, .tool-link a:hover{
+    color: white;
+    background-color: red;
+}
+.tool{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+}
+#scanForm{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+#scanForm label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+#scanForm input {
+    padding: 10px;
+}
+#scanForm button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.ip-input{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: green;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+}
+.scan-result{
+    flex: 1;
+    padding: 0 20px 0px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#result-box{
+    border: 1px solid green;
+    border-radius: 3px;
+    padding: 0 20px 0px 20px;
+    width: 95%;
+    height: 230px;
+}
+.procedure{
+    margin: 0px 25px 0px 25px;
+}
