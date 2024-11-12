@@ -6,7 +6,7 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
     resultBox.textContent = 'Scanning...';
 
     try {
-        const response = await fetch('https://portscanner.vercel.app/scan', {
+        const response = await fetch('https://abdulmoiz2k04.pythonanywhere.com/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
