@@ -12,7 +12,6 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({ ip: ipAddress }),
-            mode: 'cors',
         });
 
         if (!response.ok) {
