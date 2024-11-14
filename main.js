@@ -6,7 +6,7 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
     resultBox.textContent = 'Scanning...';
 
     try {
-        const response = await fetch('https://kodiak-mature-tahr.ngrok-free.app/scan', {
+        const response = await fetch('http://3.105.184.108/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
