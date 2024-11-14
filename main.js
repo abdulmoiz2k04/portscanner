@@ -6,7 +6,7 @@ document.getElementById('scanForm').addEventListener('submit', async (event) => 
     resultBox.textContent = 'Scanning...';
 
     try {
-        const response = await fetch('http://3.105.184.108/scan', {
+        const response = await fetch('https://s724dcxi2f.execute-api.ap-southeast-2.amazonaws.com/prod/scan', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
